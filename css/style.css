@@ -1,0 +1,30 @@
+/* home */
+#home {
+    background: #0d6efd;
+    min-height: 500px;
+}
+
+/* card */
+.card {
+    transition: all 0.5 ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    transform: scale(1.1);
+}
+
+/* button */
+.btn {
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* footer */
+.footer h2 span {
+    color: black;
+}
